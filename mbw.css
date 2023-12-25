@@ -10,6 +10,7 @@ header {
     background-color: #961919;
     height: 137px;
     font-family: 'Mixta Didone Alt';
+    flex-direction: column;
     color: #fff; /* Set text color to white or a contrasting color */
     padding: 10px; /* Adjust padding as needed */
     position: relative;
@@ -23,16 +24,19 @@ header {
     top: 29px;
     left: 58px;
     font-size: 32px;
+    height: 100%;
 }
+
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end; /* Center align items horizontally */
     align-items: center;
-    font-size : 24px;
+    height: 100%;
 }
 
 ul {
+   font-size: 24px;
     list-style: none;
     display: flex;
     margin: 0;
@@ -56,4 +60,22 @@ nav a {
 nav a.current {
     color: #fcfcfc; /* Color for the current page */
     font-weight: bolder;
+}
+
+body{
+    background-color: #0D0D0D;
+}
+
+.slogan_container{
+    font-family: 'Mixta Didone Alt';
+    top: 228px;
+    left: 377px;
+    margin: 0;
+    padding: 0; 
+    position: relative;
+}
+
+.slogan{
+    color: #f2f2f2;
+    font-size: 72px;
 }

@@ -13,6 +13,7 @@ header {
     color: #fff; /* Set text color to white or a contrasting color */
     padding: 10px; /* Adjust padding as needed */
     position: relative;
+    
 }
 
 /* Navigation styles */
@@ -21,12 +22,14 @@ header {
     position: absolute;
     top: 29px;
     left: 58px;
+    font-size: 32px;
 }
 
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
+    font-size : 24px;
 }
 
 ul {

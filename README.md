@@ -1,8 +1,6 @@
 - 👋 Hi, I’m @HyunjiiKim
-- 👀 I’m interested in Data Science 
-- 🌱 I’m currently learning Sociology
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👀 This is for the group project for the photography class
+- 📫 you can reach <a href="https://www.figma.com">here</a> to see the high fidelity design.
 
 <!---
 HyunjiiKim/HyunjiiKim is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

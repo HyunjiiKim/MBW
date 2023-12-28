@@ -94,9 +94,10 @@ body{
     line-height: normal;
 }
 
-.image {
-    width: 820px;
-    height: 779px;
+.img1 {
+    width: auto;
+    height: auto;
     flex-shrink: 0;
     background-color: saddlebrown;
+    top: 73px;
 }

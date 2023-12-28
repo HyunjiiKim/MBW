@@ -13,7 +13,6 @@ header {
     font-family: 'Mixta Didone Alt';
     flex-direction: column;
     color: #fff; /* Set text color to white or a contrasting color */
-    padding: 10px; /* Adjust padding as needed */
     position: relative;
     
 }

@@ -1,11 +1,10 @@
 body {
-    font-family: 'Mixta Sharp Alt', Airal;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #0D0D0D;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
+
 
 header {
     background-color: #961919;
@@ -16,6 +15,53 @@ header {
     position: relative;
     
 }
+
+/*Police*/
+
+    /*Type*/
+        .h1{
+            font-family: 'Mixta Sharp Alt', 'Airal';
+            font-size: 72px;
+        }
+
+        .h2{
+            font-family: 'Mixta Sharp Alt', 'Airal';
+            font-size: 48px;
+        }
+
+        .h3{
+            font-family: 'Mixta Sharp Alt', 'Airal';
+            font-size: 36px;
+        }
+
+        .h4{
+            font-family: 'Mixta Sharp Alt', 'Airal';
+            font-size: 24px;
+        }
+
+        .h5{
+            font-family: 'Mixta Sharp Alt', 'Airal';
+            font-size: 18px;
+        }
+
+        .para{
+            font-family: 'Mixta Sharp Alt', 'Airal';
+            font-size: 16px;
+        }
+
+        .italic{
+            font-style: italic;
+        }
+    
+    /*Text Color*/
+        .TextSecondary{
+            color:#f2f2f2;
+        }
+
+        .TextPrimary{
+            color:#0d0d0d;
+        }
+
 
 /* Navigation styles */
 
@@ -37,7 +83,6 @@ nav {
 }
 
 ul {
-   font-size: 24px;
     list-style: none;
     display: flex;
     margin: 0;
@@ -54,11 +99,32 @@ ul li:last-child {
 
 nav a {
     text-decoration: none;
-    color: #d9d9d9;
-
 }
 
 nav a.current {
     color: #fcfcfc; /* Color for the current page */
     font-weight: bolder;
+}
+
+
+#content{
+    margin:0;
+}
+
+#photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+img{
+    width: 540px;
+    height: 400px;
+    margin: 50px;
+    box-sizing: content-box;
+}
+
+.photo:hover{
+
 }

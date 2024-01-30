@@ -119,10 +119,10 @@ nav a.current {
 }
 
 img{
-    width: 540px;
-    height: 400px;
-    margin: 50px;
-    box-sizing: content-box;
+    width: 440px;
+    height: 300px;
+    margin: 0 auto;
+    box-sizing: 0;
 }
 
 .photo:hover{

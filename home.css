@@ -57,6 +57,7 @@ body{
     header{
         width: 1440px;
         height: 137px;
+        margin: 0 auto;
         background-color: #961919;
     }
 
@@ -81,15 +82,31 @@ body{
     }
 
         .content{
-            
+            display: flex;
+            justify-content: space-between;
         }
+
+            .text{
+
+            }
+
+            .img{
+                width: 620px;
+                height: 590px;
+            }
+
+                .img img{
+                    width: 100%;
+                    height: 100%;
+                }
 
 /*footer*/
 
     footer{
         width: 1440px;
         height: 150px;
-        display: inline;
+        margin: 0 auto;
+        display: flex;
         justify-content: center;
         align-items: center;
     }

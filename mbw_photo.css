@@ -102,7 +102,7 @@ nav a {
 }
 
 nav a.current {
-    color: #fcfcfc; /* Color for the current page */
+    color: #fcfcfc;
     font-weight: bolder;
 }
 

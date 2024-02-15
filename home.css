@@ -106,9 +106,9 @@ body{
 footer{
     width: 1440px;
     height: 150px;
-    display: inline;
-    margin: 0 auto;
     display: flex;
+    margin: 0 auto;
+    color: #fcfcfc;
     justify-content: center;
     align-items: center;
 }

@@ -31,6 +31,31 @@ body{
         font-size: 16pt;
     }
 
+
+        /*Text Alignment*/
+
+            .RightT{
+                text-align: right;
+            }
+        
+        /*BTN*/
+        
+            .BTN{
+                background-color: #A62626;
+                width: 112px;
+                height: 31px;
+                border-radius: 8px;
+                color: #f2f2f2;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+                .BTN a{
+                    text-decoration: none;
+                    color: inherit;
+                }
+
 /*header*/
 
     header{
@@ -79,7 +104,43 @@ body{
                 }
 
 
+
+
 /*section*/
+
+section{
+    margin: 0 auto 50px;
+    width: 1440px;
+}
+
+    #Article{
+        margin: 0 auto;
+        width: 1440px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+
+        .Card{
+            border-radius: 10px;
+            background-color: #fcfcfc;
+            height: 546px;
+            width: 370px;
+            position: relative;
+        }
+            .Card .img img{
+                width: 370px;
+                height: 275px;
+                border-radius: 10px 10px 0 0;
+            }
+
+            .element2{
+                position: absolute;
+                bottom: 74  px;
+                left: 16px;
+            }
 
 
 /*footer*/
@@ -87,9 +148,9 @@ body{
     footer{
         width: 1440px;
         height: 150px;
-        display: inline;
-        margin: 0 auto;
         display: flex;
+        margin: 150px auto 0 ;
+        color: #fcfcfc;
         justify-content: center;
         align-items: center;
     }

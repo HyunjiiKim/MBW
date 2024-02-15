@@ -1,64 +1,95 @@
-body {
-    font-family: 'Mixta Sharp Alt', Airal;
-    background-color: #f0f0f0;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+/*General Settings*/
+
+body{
+    margin: 0 auto;
+    background-color: #0d0d0d;
 }
 
-header {
-    background-color: #961919;
-    height: 137px;
-    font-family: 'Mixta Didone Alt';
-    flex-direction: column;
-    color: #fff; /* Set text color to white or a contrasting color */
-    position: relative;
-    
-}
+    /*Font*/
 
-/* Navigation styles */
+    h1{
+        font-size: 72pt;
+    }
 
-#logo{
-    position: absolute;
-    top: 29px;
-    left: 58px;
-    font-size: 32px;
-    font-weight: 700;
-    height: 100%;
-}
+    h2{
+        font-size: 48pt;
+    }
+
+    h3{
+        font-size: 36pt;
+    }
+
+    h4{
+        font-size: 24pt;
+    }
+
+    h5{
+        font-size: 18pt;
+    }
+
+    p{
+        font-size: 16pt;
+    }
+
+/*header*/
+
+    header{
+        width: 1440px;
+        height: 137px;
+        margin: 0 auto;
+        background-color: #961919;
+
+    }
+
+        nav {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            height: 100%;
+        }
+
+            #logo{
+                margin-left: 30px;
+            }
+
+            ul {
+                font-size: 24px;
+                list-style: none;
+                display: flex;
+                margin: 0;
+                padding: 0;
+            }
+
+                ul li{
+                    margin-left: 15px;
+                }
+
+                    ul li:last-child {
+                        margin-right: 82px;
+                    }
+
+                nav a {
+                    text-decoration: none;
+                    color: #d9d9d9;
+                }
+
+                nav a.current {
+                    color: #fcfcfc;
+                    font-weight: bolder;
+                }
 
 
-nav {
-    display: flex;
-    justify-content: flex-end; /* Center align items horizontally */
-    align-items: center;
-    height: 100%;
-}
+/*section*/
 
-ul {
-   font-size: 24px;
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
 
-ul li{
-    margin-left: 15px; /* Adjust the spacing between menu items */
-}
+/*footer*/
 
-ul li:last-child {
-    margin-right: 82px; /* Apply specific right margin to the last item */
-}
-
-nav a {
-    text-decoration: none;
-    color: #d9d9d9;
-
-}
-
-nav a.current {
-    color: #fcfcfc; /* Color for the current page */
-    font-weight: bolder;
-}
+    footer{
+        width: 1440px;
+        height: 150px;
+        display: inline;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }

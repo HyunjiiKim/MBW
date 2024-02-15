@@ -1,17 +1,17 @@
 body {
     background-color: #0D0D0D;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+    margin: 0 auto;
+    width: 1920px;
 }
 
 
 header {
     background-color: #961919;
+    height: 1440px;
     height: 137px;
     font-family: 'Mixta Didone Alt';
     flex-direction: column;
-    color: #fff; /* Set text color to white or a contrasting color */
+    color: #fff;
     position: relative;
     
 }
@@ -21,32 +21,32 @@ header {
     /*Type*/
         .h1{
             font-family: 'Mixta Sharp Alt', 'Airal';
-            font-size: 72px;
+            font-size: 72pt;
         }
 
         .h2{
             font-family: 'Mixta Sharp Alt', 'Airal';
-            font-size: 48px;
+            font-size: 48pt;
         }
 
         .h3{
             font-family: 'Mixta Sharp Alt', 'Airal';
-            font-size: 36px;
+            font-size: 36pt;
         }
 
         .h4{
             font-family: 'Mixta Sharp Alt', 'Airal';
-            font-size: 24px;
+            font-size: 24pt;
         }
 
         .h5{
             font-family: 'Mixta Sharp Alt', 'Airal';
-            font-size: 18px;
+            font-size: 18pt;
         }
 
         .para{
             font-family: 'Mixta Sharp Alt', 'Airal';
-            font-size: 16px;
+            font-size: 16pt;
         }
 
         .italic{
@@ -112,19 +112,40 @@ nav a.current {
 }
 
 #photos{
+    width: 1440px;
+    margin: 50px auto 150px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 
-img{
-    width: 440px;
-    height: 300px;
-    margin: 0 auto;
-    box-sizing: 0;
-}
+    #photos .photo{
+        width: 420px;
+        height: 310px;
+        position: relative;
+        overflow: hidden;
+    }
+        .photo img{
+            width: 420px;
+            height: 310px;
+        }
 
-.photo:hover{
+        .photo .infoP{
+            top: auto;
+            right: auto;
+            width: 420px;
+            height: 310px;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            background-color: rgba(242, 242, 242, 0.5);
+            color: #0D0D0D;
+            padding: 10px;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
 
-}
+        .infoP:hover{
+            opacity: 1;
+        }

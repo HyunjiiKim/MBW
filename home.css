@@ -1,0 +1,108 @@
+/*General Setting*/
+
+body{
+    width: 1920px;
+    background-color: #1e1e1e;
+    margin: 0 auto;
+}
+
+    /*Color*/
+
+        .BGAccent1{
+            background-color: #591515;
+        }
+
+        .BGAccent2{
+            background-color: #821E1E;
+        }
+
+        .BGAccent3{
+            background-color: #A62626;
+        }
+
+        .BGAccent4{
+            background-color: #F03B3B;
+        }
+
+        .BGWhite{
+            background-color: #f2f2f2;
+        }
+
+        .Accent1{
+            color: #591515;
+        }
+
+        .Accent2{
+            color: #821E1E;
+        }
+
+        .Accent3{
+            color: #a62626;
+        }
+
+        .Accent{
+            color: #f03b3b;
+        }
+
+
+
+    /*Font*/
+    
+
+    @font-face {
+        font-family: 'Mixta Didone';
+        src: url();
+    }
+
+    @font-face{
+        font-family: ;
+        src: url();
+    }
+
+        h1{
+            font-size: 72pt;
+        }
+
+        h2{
+            font-size: 48pt;
+        }
+
+        h3{
+            font-size: 36pt;
+        }
+
+        h4{
+            font-size: 24pt;
+        }
+
+        h5{
+            font-size: 18pt;
+        }
+
+        p{
+            font-size: 16pt;
+        }
+
+        .italic{
+            font-style: italic;
+        }
+
+
+
+
+    /*BTN*/
+
+
+
+
+
+
+
+
+
+
+/*Section*/
+    
+    
+
+/*Footer*/

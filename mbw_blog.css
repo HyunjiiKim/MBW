@@ -145,13 +145,14 @@ section{
 
 /*footer*/
 
-    footer{
-        width: 1440px;
-        height: 150px;
-        display: flex;
-        margin: 150px auto 0 ;
-        color: #fcfcfc;
-        justify-content: center;
-        align-items: center;
+footer{
+    width: 1440px;
+    height: 150px;
+    display: flex;
+    margin: 150px auto 0 ;
+    color: #fcfcfc;
+    background-color: #961919;
+    justify-content: center;
+    align-items: center;
 
-    }
+}

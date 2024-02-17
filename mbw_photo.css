@@ -89,6 +89,7 @@ body{
     }
 
         nav {
+            font-family: 'BaskerVille';
             display: flex;
             justify-content: space-between; 
             align-items: center;
@@ -149,11 +150,11 @@ body{
             height: 310px;
             position: relative;
             overflow: hidden;
+            margin-top: 50px;
         }
             .photo img{
                 width: 420px;
                 height: 310px;
-                margin-top: 50px;
             }
 
             .photo .infoP{
@@ -170,7 +171,23 @@ body{
                 transition: opacity 0.3s ease;
                 box-sizing: border-box;
                 overflow: auto;
+                font-family: 'BaskerVille';
             }
+
+                .infoP .title{
+                    font-size: 24pt;
+                    margin-bottom: 20px;
+                }
+
+                .infoP .date{
+                    font-size: 12pt;
+                    margin-bottom: 20px;
+                }
+
+                .infoP .Text{
+                    font-size: 16pt;
+                    margin-bottom: 20px;
+                }
 
             .infoP:hover{
                 opacity: 1;

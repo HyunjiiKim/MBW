@@ -8,29 +8,66 @@ body{
     /*Font*/
 
     h1{
+        font-family: 'BaskerVille';
+        color:#fcfcfc;
         font-size: 72pt;
     }
 
     h2{
+        font-family: 'BaskerVille';
+        color:#fcfcfc;
         font-size: 48pt;
     }
 
     h3{
+        font-family: 'BaskerVille';
+        color:#fcfcfc;
         font-size: 36pt;
     }
 
     h4{
+        font-family: 'BaskerVille';
+        color:#fcfcfc;
         font-size: 24pt;
     }
 
     h5{
+        font-family: 'BaskerVille';
+        color:#fcfcfc;
         font-size: 18pt;
     }
 
     p{
+        font-family: 'BaskerVille';
+        color:#fcfcfc;
         font-size: 16pt;
     }
 
+        @font-face {
+            font-family: 'BaskerVille';
+            src: url('https://hyunjiikim.github.io/MBW/font/Libre_Baskterville/LibreBaskterville-Regular.ttf');
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'BaskerVille';
+            src: url('https://hyunjiikim.github.io/MBW/font/Libre_Baskterville/LibreBaskterville-Italic.ttf');
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'BaskerVille';
+            src: url('https://hyunjiikim.github.io/MBW/font/Libre_Baskterville/LibreBaskterville-Bold.ttf');
+            font-weight: bold;
+        }
+
+    .italic{
+        font-style: italic;
+    }
+
+    .bold{
+        font-weight: bold;
+    }
 
         /*Text Alignment*/
 
@@ -67,6 +104,7 @@ body{
     }
 
         nav {
+            font-family: 'Baskerville'; 
             display: flex;
             justify-content: space-between; 
             align-items: center;

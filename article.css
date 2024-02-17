@@ -1,0 +1,124 @@
+/*General Settings*/
+
+body{
+    margin: 0 auto;
+    background-color: #0d0d0d;
+}
+
+    /*Font*/
+
+    h1{
+        font-size: 72pt;
+    }
+
+    h2{
+        font-size: 48pt;
+    }
+
+    h3{
+        font-size: 36pt;
+    }
+
+    h4{
+        font-size: 24pt;
+    }
+
+    h5{
+        font-size: 18pt;
+    }
+
+    p{
+        font-size: 16pt;
+    }
+
+
+        /*Text Alignment*/
+
+            .RightT{
+                text-align: right;
+            }
+        
+        /*BTN*/
+        
+            .BTN{
+                background-color: #A62626;
+                width: 112px;
+                height: 31px;
+                border-radius: 8px;
+                color: #f2f2f2;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+                .BTN a{
+                    text-decoration: none;
+                    color: inherit;
+                }
+
+/*header*/
+
+    header{
+        width: 1440px;
+        height: 137px;
+        margin: 0 auto;
+        background-color: #961919;
+
+    }
+
+        nav {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            height: 100%;
+        }
+
+            #logo{
+                margin-left: 30px;
+            }
+
+            ul {
+                font-size: 24px;
+                list-style: none;
+                display: flex;
+                margin: 0;
+                padding: 0;
+            }
+
+                ul li{
+                    margin-left: 15px;
+                }
+
+                    ul li:last-child {
+                        margin-right: 82px;
+                    }
+
+                nav a {
+                    text-decoration: none;
+                    color: #d9d9d9;
+                }
+
+                nav a.current {
+                    color: #fcfcfc;
+                    font-weight: bolder;
+                }
+
+
+
+
+/*section*/
+
+
+/*footer*/
+
+footer{
+    width: 1440px;
+    height: 150px;
+    display: flex;
+    margin: 150px auto 0 ;
+    color: #fcfcfc;
+    background-color: #961919;
+    justify-content: center;
+    align-items: center;
+
+}

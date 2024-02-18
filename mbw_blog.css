@@ -33,7 +33,6 @@ body{
 
     h5{
         font-family: 'BaskerVille';
-        color:#fcfcfc;
         font-size: 18pt;
     }
 
@@ -41,6 +40,13 @@ body{
         font-family: 'BaskerVille';
         color:#fcfcfc;
         font-size: 16pt;
+    }
+
+    .legend{
+        font-size: 14pt;
+        color:#0d0d0d;
+        font-family: 'BaskerVille';
+        font-style: italic;
     }
 
         @font-face {
@@ -74,7 +80,16 @@ body{
             .RightT{
                 text-align: right;
             }
-        
+
+        /*Text color*/
+
+            .whiteT{
+                color:#fcfcfc;
+            }
+
+            .blackT{
+                color:#0d0d0d;
+            }
         /*BTN*/
         
             .BTN{
@@ -86,9 +101,15 @@ body{
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                cursor: pointer;
+                position: absolute;
+                bottom: 16px;
+                margin-right: 16px;
             }
 
                 .BTN a{
+                    font-family: sans-serif;
+                    font-size: 13px;
                     text-decoration: none;
                     color: inherit;
                 }
@@ -162,6 +183,7 @@ section{
 
 
         .Card{
+            margin: 20px 0;
             border-radius: 10px;
             background-color: #fcfcfc;
             height: 546px;
@@ -176,7 +198,7 @@ section{
 
             .element2{
                 position: absolute;
-                bottom: 74  px;
+                bottom: 74px;
                 left: 16px;
             }
 

@@ -120,7 +120,44 @@ body{
 
 
 /*section*/
+    section{
+        width: 1440px;
+        margin: 120px auto;
+    }
 
+    #element1{
+        display: flex;
+        justify-content: space-between;
+        margin: 58px 0;
+    }
+
+
+        #element1 img{
+            width: 442px;
+            height: 594px;
+            order: 2;
+            align-self: flex-end;
+        }
+
+        #element1 #element1-1{
+            width: 844px;
+        }
+    
+    #element2{
+        display: flex;
+        justify-content: space-between;
+        margin: 58px 0;
+    }
+
+        #element2 img{
+            width: 683px;
+            height: 505px;
+            align-self: center;
+        }
+
+        #element2 #element2-1{
+            width: 559px
+        }
 
 /*footer*/
 

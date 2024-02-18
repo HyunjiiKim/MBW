@@ -33,7 +33,9 @@ body{
 
     h5{
         font-family: 'BaskerVille';
-        color:#fcfcfc;
+        color: rgba(217,217,217,0.85);
+        font-weight: normal;
+        font-style: italic;
         font-size: 18pt;
     }
 
@@ -41,6 +43,13 @@ body{
         font-family: 'BaskerVille';
         color:#fcfcfc;
         font-size: 16pt;
+    }
+
+    .legend{
+        font-size: 14pt;
+        color:#0d0d0d;
+        font-family: 'BaskerVille';
+        font-style: italic;
     }
 
         @font-face {
@@ -60,6 +69,18 @@ body{
             src: url('https://hyunjiikim.github.io/MBW/font/Libre_Baskterville/LibreBaskterville-Bold.ttf');
             font-weight: bold;
         }
+
+        @font-face {
+            font-family: 'Playfair';
+            src: url('https://hyunjiikim.github.io/MBW/font/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf');
+        }
+
+        @font-face {
+            font-family: 'Playfair';
+            src: url('https://hyunjiikim.github.io/MBW/font/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf');
+            font-style: italic;
+        }
+
 
     .italic{
         font-style: italic;
@@ -131,7 +152,13 @@ header{
        align-content: center;
     }
 
-        .text{
+        .sub{
+            font-family: 'Playfair';
+            font-size: 24pt;
+            font-weight: 500;
+            width: 548px;
+            color: rgba(217,217,217,0.85);
+            font-style: italic;
         }
 
         .img{

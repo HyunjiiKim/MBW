@@ -69,6 +69,16 @@ body{
         font-weight: bold;
     }
 
+        /*Text Color*/
+
+            .accent5{
+                color: #ff4040;
+            }
+
+            .white{
+                color:#fcfcfc;
+            }
+
         /*Text Alignment*/
 
             .RightT{
@@ -116,11 +126,11 @@ header{
             font-family: 'BaskerVille';
             color:#fcfcfc;
             font-weight: bold;
-            font-size: 24px;
+            font-size: 24pt;
         }
 
         ul {
-            font-size: 24px;
+            font-size: 24pt;
             list-style: none;
             display: flex;
             margin: 0;
@@ -149,6 +159,90 @@ header{
 
 /*section*/
 
+    #article{
+        width: 1440px;
+        margin: 50px auto;
+    }
+
+        #title hr{
+            border: solid 1.5px #f2f2f2;
+        }
+
+    #category{
+        font-size: 18pt;
+        font-family: 'BaskerVille';
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 36px;
+        margin-bottom: 120px;
+    }
+
+        #category div{
+            margin-left: 20px;
+        }
+
+    /*content*/
+
+    .figcaption{
+        font-family: 'BaskerVille';
+        font-style: italic;
+        font-size: 11pt;
+        color:#f2f2f2;
+        text-align: center;
+    }
+
+        .imgR{
+            display: flex;
+            justify-content: space-between;
+        }
+
+            .imgR text{
+                width: 800px;
+                align-self: center;
+            }
+
+            .imgR img{
+                width: 470px;
+                height: auto;
+                order: 2;
+            }
+
+        .imgwth{
+            place-content: center;
+        }
+
+            .imgwth img{
+                width: 820px;
+                height: auto;
+                place-content: center;
+            }
+
+        .imgL{
+            display: flex;
+            justify-content: space-between;
+        }
+
+            .imgL text{
+                align-self: center;
+            }
+
+            .imgL img{
+                width: 480px;
+                height: auto;
+                order: 1;
+            }
+
+    #src{
+        margin: 50px auto;
+        width: 1440px;
+    }
+
+        #src ul{
+            margin-top: 50px;
+            font-size: 16pt;
+            color: #fcfcfc;
+            font-family: 'BaskerVille';
+        }
 
 /*footer*/
 

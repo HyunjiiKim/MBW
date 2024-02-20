@@ -174,13 +174,13 @@ header{
     #v-line{
         border-left : 1px solid #f2f2f2;
         height : 500px;
-        position: absolute;
-        top: 350px;
-        left: 966px;
+        margin: 213px 250px 192px;
     }
 
     #Right{
         margin-right: 100px;
+        display: flex;
+        flex-direction: column;
     }
 
         .CardS_List{
@@ -209,6 +209,23 @@ header{
             font-family: 'Playfair';
             font-size: 12pt;
             color:#0d0d0d;
+        }
+
+        input{
+            background-color: #a62626;
+            color: #f2f2f2;
+            font-family: 'BaskerVille';
+            font-size: 12pt;
+            text-align: center;
+            border-radius: 8px;
+            border: none;
+            padding: 3px;
+            width: 112px;
+            height: 29px;
+            align-self: flex-end;
+            margin-right: 38px;
+            margin-top: 30px;
+            cursor: pointer;
         }
 
 /*footer*/

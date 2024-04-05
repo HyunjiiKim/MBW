@@ -133,10 +133,6 @@ header{
         justify-content: space-between;
     }
 
-    #Left{
-
-    }
-
         .ContactInfoS{
             display: flex;
             align-items: baseline;

@@ -1,24 +1,14 @@
+<?php $pageTitle="About"?>
 <!DOCTYPE html>
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="mbw_intro.css">
+        <link rel="stylesheet" href="css/mbw_intro.css">
         <title>Présentation de Margaret Bourke-White</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <div id="logo">Margaret<br>Bourke-White</div>
-                <ul>
-                    <li><a href="index.html" >Accueil</a></li>
-                    <li><a href="mbw_intro.html" class="current">À propos</a></li>
-                <li><a href="mbw_photo.html">Mes travaux</a></li>
-                <li><a href="mbw_blog.html">Blog</a></li>
-                <li><a href="mbw_contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+        <?php include 'includes/header.php'?>
         <section>
             <div id="element1">
                 <img src="https://hyunjiikim.github.io/MBW/images/intro2.png" alt="">
@@ -46,8 +36,6 @@
                     </div>
             </div>
         </section>
-        <footer>
-            <p>© 2024 Hyunji Kim Myriam Rharsalla | All Rights Reserved</p>
-        </footer>
+        <?php include 'includes/footer.php'?>
     </body>
 </html>
